@@ -1,0 +1,208 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "User need to verify the flight summary and total amount",
+        "description": "",
+        "id": "verify-the-user-is-able-to-book-the-flight-ticket.;user-need-to-verify-the-flight-summary-and-total-amount",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94875703582,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Launch the browser and Navigate the URL and Verify the Welcome Page",
+            "match": {
+              "location": "LoginHomePageSteps.launch_the_browser_and_Navigate_the_URL_and_Verify_the_Welcome_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14316156579,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on the Login button to enter username and password",
+            "match": {
+              "location": "LoginHomePageSteps.click_on_the_Login_button_to_enter_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: call function result missing \u0027value\u0027\n  (Session info: chrome\u003d81.0.4044.138)\n  (Driver info: chromedriver\u003d2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform\u003dWindows NT 6.1.7600 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 577 milliseconds\nBuild info: version: \u00272.46.0\u0027, revision: \u002787c69e2\u0027, time: \u00272015-06-04 16:16:47\u0027\nSystem info: host: \u0027guruprasad-PC\u0027, ip: \u0027169.254.210.117\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir\u003dC:\\Users\\GURUPR~1\\AppData\\Local\\Temp\\scoped_dir10096_6804}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d81.0.4044.138, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: bcbd16c0039162d1d34d892b1938435a\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:90)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy11.sendKeys(Unknown Source)\r\n\tat com.DemoMakeMyTrip.Pages_POM.LoginPage.username(LoginPage.java:61)\r\n\tat com.DemoMakeMyTrip.stepdefination.LoginHomePageSteps.enter_the_Username_and_Password(LoginHomePageSteps.java:77)\r\n\tat ✽.Enter the Username and Password(./src/main/java/com/DemoMakeMyTrip/features/MakeMyTrip.feature:19)\r\n",
+              "duration": 877630714,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "Enter the Username and Password",
+            "match": {
+              "location": "LoginHomePageSteps.enter_the_Username_and_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Click on the Login button",
+            "match": {
+              "location": "LoginHomePageSteps.click_on_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Select the one way option from the trip type",
+            "match": {
+              "location": "LoginHomePageSteps.select_the_one_way_option_from_the_trip_type()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Select the Source and Destination",
+            "match": {
+              "location": "LoginHomePageSteps.select_the_Source_and_Destination()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Select the Departure Date",
+            "match": {
+              "location": "LoginHomePageSteps.select_the_Departure_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Select the two passanger",
+            "match": {
+              "location": "LoginHomePageSteps.select_the_two_passanger()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Click on the Search button.",
+            "match": {
+              "location": "LoginHomePageSteps.click_on_the_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "click on the Sort filter and select the Low to high price",
+            "match": {
+              "location": "LoginHomePageSteps.click_on_the_Sort_filter_and_select_the_Low_to_high_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Validate Price is displying in the Sorted order",
+            "match": {
+              "location": "LoginHomePageSteps.validate_Price_is_displying_in_the_Sorted_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "click on the Book now button",
+            "match": {
+              "location": "LoginHomePageSteps.click_on_the_Book_now_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "click on the Yes the Secure My trip radio button",
+            "match": {
+              "location": "LoginHomePageSteps.click_on_the_Yes_the_Secure_My_trip_radio_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "click on the continue button",
+            "match": {
+              "location": "LoginHomePageSteps.click_on_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "Verify the Flight summary",
+            "match": {
+              "location": "LoginHomePageSteps.verify_the_Flight_summary()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Verify the total amount is displaying",
+            "match": {
+              "location": "LoginHomePageSteps.verify_the_total_amount_is_displaying()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login_Testing"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the user is able to book the flight ticket.",
+    "description": "",
+    "id": "verify-the-user-is-able-to-book-the-flight-ticket.",
+    "keyword": "Feature",
+    "uri": "./src/main/java/com/DemoMakeMyTrip/features/MakeMyTrip.feature",
+    "tags": []
+  }
+]
